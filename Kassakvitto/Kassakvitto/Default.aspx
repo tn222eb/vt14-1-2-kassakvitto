@@ -11,13 +11,17 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    <asp:Label ID="Label" runat="server" Text="Total köpsumma"></asp:Label>
-    <asp:TextBox ID="TextBox" runat="server"></asp:TextBox>
-    <asp:Button ID="SubmitButton" runat="server" Text="Beräkna rabatt" />
-    <asp:CompareValidator ID="CompareValidator" runat="server" ErrorMessage="CompareValidator"></asp:CompareValidator>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
-    </div>
+        <div>
+            <asp:Label ID="Label" runat="server" Text="Total köpsumma"></asp:Label>
+        </div>
+        <div>
+            <asp:TextBox ID="TextBox" runat="server"></asp:TextBox>
+            <asp:CompareValidator ID="CompareValidator" runat="server" ErrorMessage="Ange köpsumma större än 0." Type="Double" Operator="GreaterThan" ValueToCompare="0" Display="Dynamic" ControlToValidate="TextBox"></asp:CompareValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ErrorMessage="Fältet får inte vara tomt." Display="Dynamic" ControlToValidate="TextBox"></asp:RequiredFieldValidator>
+        </div>
+        <div>
+            <asp:Button ID="SubmitButton" runat="server" Text="Beräkna rabatt" OnClick="SubmitButton_Click" />
+        </div>
     </form>
 </body>
 </html>
