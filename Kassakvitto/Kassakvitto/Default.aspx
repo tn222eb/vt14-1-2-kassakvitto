@@ -10,7 +10,8 @@
     <link href ="~/Content/Site.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" defaultbutton="SubmitButton">
+        <h1>Kassakvitto</h1>
         <div>
             <asp:Label ID="Label" runat="server" Text="Total köpsumma"></asp:Label>
         </div>
