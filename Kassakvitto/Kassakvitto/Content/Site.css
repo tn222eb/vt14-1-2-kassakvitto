@@ -1,1 +1,34 @@
-﻿
+﻿#SubmitButton {
+    margin-top: 10px;
+}
+
+#CompareValidator {
+    color: red;
+}
+
+#RequiredFieldValidator {
+    color: red;
+}
+
+#ReceiptPanel {
+    width: 210px;
+    height: 250px;
+    border: solid 1px #000;
+    margin-top: 20px;
+    background-color: #C0C0C0;
+}
+
+#SumTotalLabel, #DiscountRateLabel, #DiscountLabel, #ToPayLabel, #ReceiptLabel, #GreetingsLabel, #PhoneLabel, #OpeningHoursLabel {
+    font-size: 13px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+#StartLineLabel, #FinishLineLabel {
+    margin-left: 3px;
+}
+
+#Label {
+    color: grey;
+}

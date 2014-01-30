@@ -27,14 +27,43 @@ namespace Kassakvitto.Model
                 {
                     throw new ArgumentOutOfRangeException();
                 }
-                value = _subtotal;
+                _subtotal = value;
             }
         }
 
         // Konstruktor
         public Receipt(double subtotal)
         {
-            
+            Calculate(subtotal);
         }
+
+        // Metod som beräknar rabatten och den totala summan att betala
+        public void Calculate(double subtotal)
+        {
+            SubTotal = subtotal;
+
+            if (SubTotal < 500)
+            {
+                DiscountRate = 0;
+            }
+            else if (SubTotal < 1000)
+            {
+                DiscountRate = 0.05;
+            }
+
+            else if (SubTotal < 5000)
+            {
+                DiscountRate = 0.10;
+            }
+            else 
+            {
+                DiscountRate = 0.15;
+            }
+
+            MoneyOff = SubTotal * DiscountRate;
+            Total = SubTotal - MoneyOff;
+        }
+
+
     }
 }
