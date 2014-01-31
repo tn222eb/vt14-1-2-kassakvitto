@@ -26,16 +26,16 @@
         </div>
         <%-- Kvitto --%>
         <asp:Panel ID="ReceiptPanel" runat="server" Visible="false">
-            <asp:Label ID="ReceiptLabel" runat="server" Text="FRASSES"></asp:Label> <br/>
-            <asp:Label ID="PhoneLabel" runat="server" Text="Tel: 0921-550 10    "></asp:Label><br />
-            <asp:Label ID="OpeningHoursLabel" runat="server" Text="Öppettider 10:00-22:30"></asp:Label><br />
-            <asp:Label ID="StartLineLabel" runat="server" Text="-------------------------------"></asp:Label> <br />
+            <span id="ReceiptLabel">FRASSES</span> <br/>
+            <span id="PhoneLabel">Tel: 0921-550 10</span> <br/>
+            <span id="OpeningHoursLabel">Öppettider 10:00-22:30</span> <br />
+            <span id="StartLineLabel">-------------------------------</span> <br />
             <asp:Label ID="SumTotalLabel" runat="server" Text=""></asp:Label> <br/>
             <asp:Label ID="DiscountRateLabel" runat="server" Text=""></asp:Label> <br/>
             <asp:Label ID="DiscountLabel" runat="server" Text=""></asp:Label> <br />
             <asp:Label ID="ToPayLabel" runat="server" Text=""></asp:Label> <br />
-            <asp:Label ID="FinishLineLabel" runat="server" Text="-------------------------------"></asp:Label> <br />
-            <asp:Label ID="GreetingsLabel" runat="server" Text="VÄLKOMMEN ÅTER!"></asp:Label>
+            <span id="FinishLineLabel">------------------------------</span> <br />
+            <span id="GreetingsLabel">VÄLKOMMEN ÅTER!</span>
         </asp:Panel>
     </form>
     <script type="text/javascript">

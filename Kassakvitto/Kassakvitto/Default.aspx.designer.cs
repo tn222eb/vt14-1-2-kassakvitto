@@ -76,42 +76,6 @@ namespace Kassakvitto {
         protected global::System.Web.UI.WebControls.Panel ReceiptPanel;
         
         /// <summary>
-        /// ReceiptLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ReceiptLabel;
-        
-        /// <summary>
-        /// PhoneLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PhoneLabel;
-        
-        /// <summary>
-        /// OpeningHoursLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label OpeningHoursLabel;
-        
-        /// <summary>
-        /// StartLineLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label StartLineLabel;
-        
-        /// <summary>
         /// SumTotalLabel control.
         /// </summary>
         /// <remarks>
@@ -146,23 +110,5 @@ namespace Kassakvitto {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label ToPayLabel;
-        
-        /// <summary>
-        /// FinishLineLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FinishLineLabel;
-        
-        /// <summary>
-        /// GreetingsLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label GreetingsLabel;
     }
 }
